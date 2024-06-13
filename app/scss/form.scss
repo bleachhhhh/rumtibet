@@ -1,0 +1,34 @@
+.findprogram{
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 42px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__field{
+        border: 1px solid rgba(225, 227, 228, 1);
+        padding: 0px 16px 0px 16px;
+        border-radius: 8px;
+        h3{
+            margin: 8px 8px 0 8px;
+        }
+    }
+}
+.findprogramtitle{
+    font-family: NEXT ART;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    max-width: 1080px;
+    color: rgba(253, 253, 253, 1);
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+

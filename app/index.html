@@ -4,43 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="scss/style.min.css">
 </head>
 <body>
     <div class="firstpage">
         <header class="header">
             <div class="container">
                 <img src="../images/header__Logo.svg" alt="">
-                <nav class="header__nav">
-                    <ul>
-                        <li>Главная</li>
-                        <li>Про гида</li>
-                        <li>Программа тура</li>
-                        <li>Стоимость</li>
-                        <li>Блог</li>
-                        <li>Контакты</li>
-                    </ul>
-                </nav>
-                <button class="header__btn"><span>Консультация</span></button>
+                <div class="header__frame">
+                    <nav class="header__frame-nav">
+                        <ul>
+                            <li>Главная</li>
+                            <li>Про гида</li>
+                            <li>Программа тура</li>
+                            <li>Стоимость</li>
+                            <li>Блог</li>
+                            <li>Контакты</li>
+                        </ul>
+                    </nav>
+                    <button class="header__frame-btn"><span>Консультация</span></button>
+                </div>
+                
             </div>
             
             
         </header>
-        <h1>Насладись прогулкой в горах с командой единомышленников</h1>
+        <h1 class="findprogramtitle">Насладись прогулкой в горах с командой единомышленников</h1>
         <form class="findprogram" action="">
-            <div class="findprogram__field">
-                <label for="location">Локация для тура</label>
-                <select name="" id="location"></select>
+            <div class="container">
+                <div class="findprogram__field" id="input-location">
+                    <label for="location">Локация для тура</label>
+                    <select name="" id="location"></select>
+                </div>
+                <div class="findprogram__field" id="input-date">
+                    <label for="date">Дата похода</label>
+                    <input id="date" type="date">
+                </div>
+                <div class="findprogram__field" id="input-people">
+                    <label for="people">Участники</label>
+                    <select name="" id="people"></select>
+                </div>
+                
+                <button type="submit">Найти программу</button>
             </div>
-            <div class="findprogram__field">
-                <label for="date">Дата похода</label>
-                <input id="date" type="date">
-            </div>
-            <div class="findprogram__field">
-                <label for="people">Участники</label>
-                <select name="" id="people"></select>
-            </div>
-            
-            <button type="submit">Найти программу</button>
+           
         </form>
     </div>
    
