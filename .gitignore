@@ -10,7 +10,7 @@
 node_modules/
 
 # Игнорирование билдов
-dist/
+
 
 # Игнорирование файла gulpfile.js
 gulpfile.js
