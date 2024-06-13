@@ -1,0 +1,17 @@
+.header{
+    max-width: 1180px;
+    width: 100%;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__nav{
+        display: flex;
+        ul{
+            li{
+                list-style-type: none;
+            }
+        }
+    }
+}
