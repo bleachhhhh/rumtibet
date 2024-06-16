@@ -4,52 +4,153 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/next-art" rel="stylesheet">
+
+
     <link rel="stylesheet" href="scss/style.min.css">
 </head>
 <body>
-    <div class="firstpage">
-        <header class="header">
-            <div class="container">
-                <img src="images/header__Logo.svg" alt="">
-                <div class="header__frame">
-                    <nav class="header__frame-nav">
-                        <ul>
-                            <li>Главная</li>
-                            <li>Про гида</li>
-                            <li>Программа тура</li>
-                            <li>Стоимость</li>
-                            <li>Блог</li>
-                            <li>Контакты</li>
-                        </ul>
-                    </nav>
-                    <button class="header__frame-btn"><span>Консультация</span></button>
+    <div class="wrapper">
+        <div class="firstpage">
+            <header class="header">
+                <div class="container">
+                    <img src="images/header__Logo.svg" alt="">
+                    <div class="header__frame">
+                        <nav class="header__frame-nav">
+                            <ul class="nunito-sans">
+                                <li>Главная</li>
+                                <li>Про гида</li>
+                                <li>Программа тура</li>
+                                <li>Стоимость</li>
+                                <li>Блог</li>
+                                <li>Контакты</li>
+                            </ul>
+                        </nav>
+                        <button class="header__frame-btn nunito-sans"><span>Консультация</span></button>
+                    </div>
+                    
                 </div>
                 
-            </div>
-            
-            
-        </header>
-        <h1 class="findprogramtitle">Насладись прогулкой в горах с командой единомышленников</h1>
-        <form class="findprogram" action="">
-            <div class="container">
-                <div class="findprogram__field" id="input-location">
-                    <label for="location">Локация для тура</label>
-                    <select name="" id="location"></select>
-                </div>
-                <div class="findprogram__field" id="input-date">
-                    <label for="date">Дата похода</label>
-                    <input id="date" type="date">
-                </div>
-                <div class="findprogram__field" id="input-people">
-                    <label for="people">Участники</label>
-                    <select name="" id="people"></select>
-                </div>
                 
-                <button type="submit">Найти программу</button>
-            </div>
-           
-        </form>
+            </header>
+            <h1 class="findprogramtitle">Насладись прогулкой в горах с командой единомышленников</h1>
+            <form class="findprogram" action="">
+                <div class="container">
+                    <div class="findprogram__field" id="input-location">
+                        <label for="location">Локация для тура</label>
+                        <select name="" id="location"></select>
+                    </div>
+                    <div class="findprogram__field" id="input-date">
+                        <label for="date">Дата похода</label>
+                        <input id="date" type="date">
+                    </div>
+                    <div class="findprogram__field" id="input-people">
+                        <label for="people">Участники</label>
+                        <select name="" id="people"></select>
+                    </div>
+                    
+                    <button type="submit">Найти программу</button>
+                </div>
+               
+            </form>
+        </div>
+        <main class="main">
+            <section class="ourtravels">
+                <div class="container">
+                    <div class="ourtravels__images">
+                        <img src="../images/ourtravels1.png" alt="">
+                        <img src="../images/ourtravels2.png" alt="">
+                        
+                        <img src="../images/playbtn.svg" class="ourtravels__images-playbtn" alt="">
+                    </div>
+                    <div class="ourtravels__frame">
+                        <div class="ourtravels__frame-title">
+                            <h4>о нашем походе</h4>
+                            <h3>Исследуйте все горные массивы мира вместе с нами</h3>
+                        </div>
+                        <p class="ourtravels__frame-paragraph">
+                            Его корни уходят в один фрагмент классической латыни 45 года н.э.,
+                            то есть более двух тысячелетий назад. Ричард МакКлинток, профессор 
+                            латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых
+                            странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в 
+                            классической латинской литературе.
+                        </p>
+                        <button class="ourtravels__frame-btn"><span>Программа тура</span></button>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="ourprograms">
+                <div class="container">
+                    <div class="ourprograms__frame">
+                        <div class="ourprograms__frame-title">
+                            <h4>наше предложение</h4>
+                            <h3>Лучшие программы для тебя</h3>
+                        </div>
+                        <p class="ourprograms__frame-paragraph">
+                            Его корни уходят в один фрагмент классической латыни 
+                            45 года н.э., то есть более двух
+                            тысячелетий назад. Ричард МакКлинток, 
+                            профессор латыни из колледжа.
+                        </p>
+                       <ul class="ourprograms__frame-list">
+                            <li class="ourprograms__frame-list-item">
+                                <img src="../images/ourprograms-icon1.svg" alt="">
+                                <div class="ourprograms__frame-list-item-txt">
+                                    <h3>Опытный гид</h3>
+                                    <h4>
+                                        Для современного мира
+                                         базовый вектор 
+                                         развития предполагает независимые способы реализации 
+                                         соответствующих условий активизации.
+                                    </h4>
+                                </div>
+                            </li>
+                            <li class="ourprograms__frame-list-item">
+                                <img src="../images/ourprograms-icon1.svg" alt="">
+                                <div class="ourprograms__frame-list-item-txt">
+                                    <h3>Опытный гид</h3>
+                                    <h4>
+                                        Для современного мира
+                                         базовый вектор 
+                                         развития предполагает независимые способы реализации 
+                                         соответствующих условий активизации.
+                                    </h4>
+                                </div>
+                            </li>
+                            <li class="ourprograms__frame-list-item">
+                                <img src="../images/ourprograms-icon1.svg" alt="">
+                                <div class="ourprograms__frame-list-item-txt">
+                                    <h3>Опытный гид</h3>
+                                    <h4>
+                                        Для современного мира
+                                         базовый вектор 
+                                         развития предполагает независимые способы реализации 
+                                         соответствующих условий активизации.
+                                    </h4>
+                                </div>
+                            </li>
+                       </ul>
+                       <button class="ourprograms__frame-btn">
+                            <span>Стоимость программы</span>
+                       </button>
+                    </div>
+                    <div class="ourprograms__images">
+                        <img src="../images/ourprograms__item2.png" alt="">
+                        <img src="../images/ourprograms__item3.png" alt="">
+                        <img src="../images/ourprograms__item4.png" alt="">
+                        <img src="../images/ourprograms__item1.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
    
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </body>
 </html>

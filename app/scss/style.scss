@@ -4,11 +4,18 @@ body{
     margin: 0 auto;
     overflow-x: hidden;
 }
+.wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+}
 .inter{
     font-family: 'Inter', sans-serif;
 }
 .oxanium{
     font-family: 'Oxanium', sans-serif;
+}
+.nunito-sans{
+    font-family: "Nunito Sans", sans-serif;
 }
 .element-animation{
     opacity: 0;
@@ -21,7 +28,7 @@ body{
 }
 .container{
     width: 100%;
-    max-width: 1321px;
+    
     margin: 0 auto;
 }
 
@@ -35,5 +42,6 @@ body{
     overflow: hidden;
 }
 .firstpage{
+    padding-bottom: 82px;
     background: url("../images/background.png") no-repeat;
 }

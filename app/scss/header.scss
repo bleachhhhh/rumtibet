@@ -12,13 +12,33 @@
         display: flex;
         gap: 50px;
         &-nav{
+            display: flex;
+            align-items: center;
             ul{
                 display: flex;
                 gap: 24px;
                 li{
                     list-style-type: none;
+                    font-family: "Nunito Sans";
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 24.55px;
+                    text-align: left;
+                    color: rgba(253, 253, 253, 1);
                 }
             }
+        }
+        &-btn{
+            padding: 12px 24px;
+            border-radius: 4px;
+            background: rgba(26, 62, 62, 1);
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 0.012em;
+            text-align: left;
+            color:  rgba(253, 253, 253, 1);
+            
         }
         
     }
